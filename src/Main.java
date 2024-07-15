@@ -4,27 +4,27 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Первое число из консоли
-        System.out.println("Введите первое число:");
+        //РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ РёР· РєРѕРЅСЃРѕР»Рё
+        System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ:");
         int firstNumber = new Scanner(System.in).nextInt();
-        // Второе число из консоли
-        System.out.println("Введите второе число:");
+        //Р’С‚РѕСЂРѕРµ С‡РёСЃР»Рѕ РёР· РєРѕРЅСЃРѕР»Рё
+        System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ:");
         int secondNumber = new Scanner(System.in).nextInt();
 
-        // Заранее введенные данные
+        //Р—Р°СЂР°РЅРµРµ РІРІРµРґРµРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ
         //int firstNumber =5;
         //int secondNumber = 10;
 
-        //Вычисляем
+        //Р’С‹С‡РёСЃР»СЏРµРј
         int sum = firstNumber + secondNumber;
         int difference = firstNumber - secondNumber;
         int product = firstNumber * secondNumber;
         double quotient = (double) firstNumber / secondNumber;
 
-        //Выводим результат
-        System.out.println("Сумма: " + sum);
-        System.out.println("Разность: " + difference);
-        System.out.println("Произведение: " + product);
-        System.out.printf("Частное: %.2f\n", quotient);
+        //Р’С‹РІРѕРґРёРј СЂРµР·СѓР»СЊС‚Р°С‚
+        System.out.println("РЎСѓРјРјР°: " + sum);
+        System.out.println("Р Р°Р·РЅРѕСЃС‚СЊ: " + difference);
+        System.out.println("РџСЂРѕРёР·РІРµРґРµРЅРёРµ: " + product);
+        System.out.printf("Р§Р°СЃС‚РЅРѕРµ: %.2f\n", quotient);
     }
 }
