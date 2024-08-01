@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Введите путь к файлу (или 'exit' для выхода):");
+            System.out.println("Р’РІРµРґРёС‚Рµ РїСѓС‚СЊ Рє С„Р°Р№Р»Сѓ (РёР»Рё 'exit' РґР»СЏ РІС‹С…РѕРґР°):");
             String path = scanner.nextLine();
 
 
@@ -20,13 +20,13 @@ public class Main {
             boolean isDirectory = file.isDirectory();
 
             if (!fileExists || isDirectory) {
-                System.out.println("Файл не существует или указанный путь является директорией. Попробуйте снова.");
+                System.out.println("Р¤Р°Р№Р» РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚ РёР»Рё СѓРєР°Р·Р°РЅРЅС‹Р№ РїСѓС‚СЊ СЏРІР»СЏРµС‚СЃСЏ РґРёСЂРµРєС‚РѕСЂРёРµР№. РџРѕРїСЂРѕР±СѓР№С‚Рµ СЃРЅРѕРІР°.");
                 continue;
             }
 
             validFileCount++;
-            System.out.println("Путь указан верно.");
-            System.out.println("Это файл номер " + validFileCount);
+            System.out.println("РџСѓС‚СЊ СѓРєР°Р·Р°РЅ РІРµСЂРЅРѕ.");
+            System.out.println("Р­С‚Рѕ С„Р°Р№Р» РЅРѕРјРµСЂ " + validFileCount);
         }
 
         scanner.close();
